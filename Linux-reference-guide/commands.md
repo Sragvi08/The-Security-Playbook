@@ -13,3 +13,7 @@ The `find` command is used to search for files and directories based on various 
 ```bash
 find [directory] [options]
 find /home/Andy -type f -name sales.txt
+```
+-type f → search for files only
+
+-name → case-sensitive filename match
